@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0986DDF1E6F95ED0051E9F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0986DDE1E6F95ED0051E9F9 /* AppDelegate.swift */; };
+		D0986DE11E6F95ED0051E9F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0986DE01E6F95ED0051E9F9 /* ViewController.swift */; };
+		D0986DE41E6F95ED0051E9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0986DE21E6F95ED0051E9F9 /* Main.storyboard */; };
+		D0986DE61E6F95ED0051E9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0986DE51E6F95ED0051E9F9 /* Assets.xcassets */; };
+		D0986DE91E6F95ED0051E9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0986DE71E6F95ED0051E9F9 /* LaunchScreen.storyboard */; };
+		D0986DF41E6F95ED0051E9F9 /* Eye_TrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0986DF31E6F95ED0051E9F9 /* Eye_TrackingTests.swift */; };
+		D0986DFF1E6F95ED0051E9F9 /* Eye_TrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0986DFE1E6F95ED0051E9F9 /* Eye_TrackingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0986DF01E6F95ED0051E9F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0986DD31E6F95ED0051E9F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0986DDA1E6F95ED0051E9F9;
+			remoteInfo = "Eye Tracking";
+		};
+		D0986DFB1E6F95ED0051E9F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0986DD31E6F95ED0051E9F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0986DDA1E6F95ED0051E9F9;
+			remoteInfo = "Eye Tracking";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0986DDB1E6F95ED0051E9F9 /* Eye Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eye Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0986DDE1E6F95ED0051E9F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0986DE01E6F95ED0051E9F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0986DE31E6F95ED0051E9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0986DE51E6F95ED0051E9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0986DE81E6F95ED0051E9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0986DEA1E6F95ED0051E9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0986DEF1E6F95ED0051E9F9 /* Eye TrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eye TrackingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0986DF31E6F95ED0051E9F9 /* Eye_TrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye_TrackingTests.swift; sourceTree = "<group>"; };
+		D0986DF51E6F95ED0051E9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0986DFA1E6F95ED0051E9F9 /* Eye TrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eye TrackingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0986DFE1E6F95ED0051E9F9 /* Eye_TrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eye_TrackingUITests.swift; sourceTree = "<group>"; };
+		D0986E001E6F95ED0051E9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0986DD81E6F95ED0051E9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0986DEC1E6F95ED0051E9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0986DF71E6F95ED0051E9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0986DD21E6F95ED0051E9F9 = {
+			isa = PBXGroup;
+			children = (
+				D0986DDD1E6F95ED0051E9F9 /* Eye Tracking */,
+				D0986DF21E6F95ED0051E9F9 /* Eye TrackingTests */,
+				D0986DFD1E6F95ED0051E9F9 /* Eye TrackingUITests */,
+				D0986DDC1E6F95ED0051E9F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0986DDC1E6F95ED0051E9F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0986DDB1E6F95ED0051E9F9 /* Eye Tracking.app */,
+				D0986DEF1E6F95ED0051E9F9 /* Eye TrackingTests.xctest */,
+				D0986DFA1E6F95ED0051E9F9 /* Eye TrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0986DDD1E6F95ED0051E9F9 /* Eye Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				D0986DDE1E6F95ED0051E9F9 /* AppDelegate.swift */,
+				D0986DE01E6F95ED0051E9F9 /* ViewController.swift */,
+				D0986DE21E6F95ED0051E9F9 /* Main.storyboard */,
+				D0986DE51E6F95ED0051E9F9 /* Assets.xcassets */,
+				D0986DE71E6F95ED0051E9F9 /* LaunchScreen.storyboard */,
+				D0986DEA1E6F95ED0051E9F9 /* Info.plist */,
+			);
+			path = "Eye Tracking";
+			sourceTree = "<group>";
+		};
+		D0986DF21E6F95ED0051E9F9 /* Eye TrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0986DF31E6F95ED0051E9F9 /* Eye_TrackingTests.swift */,
+				D0986DF51E6F95ED0051E9F9 /* Info.plist */,
+			);
+			path = "Eye TrackingTests";
+			sourceTree = "<group>";
+		};
+		D0986DFD1E6F95ED0051E9F9 /* Eye TrackingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0986DFE1E6F95ED0051E9F9 /* Eye_TrackingUITests.swift */,
+				D0986E001E6F95ED0051E9F9 /* Info.plist */,
+			);
+			path = "Eye TrackingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0986DDA1E6F95ED0051E9F9 /* Eye Tracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0986E031E6F95ED0051E9F9 /* Build configuration list for PBXNativeTarget "Eye Tracking" */;
+			buildPhases = (
+				D0986DD71E6F95ED0051E9F9 /* Sources */,
+				D0986DD81E6F95ED0051E9F9 /* Frameworks */,
+				D0986DD91E6F95ED0051E9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eye Tracking";
+			productName = "Eye Tracking";
+			productReference = D0986DDB1E6F95ED0051E9F9 /* Eye Tracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0986DEE1E6F95ED0051E9F9 /* Eye TrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0986E061E6F95ED0051E9F9 /* Build configuration list for PBXNativeTarget "Eye TrackingTests" */;
+			buildPhases = (
+				D0986DEB1E6F95ED0051E9F9 /* Sources */,
+				D0986DEC1E6F95ED0051E9F9 /* Frameworks */,
+				D0986DED1E6F95ED0051E9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0986DF11E6F95ED0051E9F9 /* PBXTargetDependency */,
+			);
+			name = "Eye TrackingTests";
+			productName = "Eye TrackingTests";
+			productReference = D0986DEF1E6F95ED0051E9F9 /* Eye TrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0986DF91E6F95ED0051E9F9 /* Eye TrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0986E091E6F95ED0051E9F9 /* Build configuration list for PBXNativeTarget "Eye TrackingUITests" */;
+			buildPhases = (
+				D0986DF61E6F95ED0051E9F9 /* Sources */,
+				D0986DF71E6F95ED0051E9F9 /* Frameworks */,
+				D0986DF81E6F95ED0051E9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0986DFC1E6F95ED0051E9F9 /* PBXTargetDependency */,
+			);
+			name = "Eye TrackingUITests";
+			productName = "Eye TrackingUITests";
+			productReference = D0986DFA1E6F95ED0051E9F9 /* Eye TrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0986DD31E6F95ED0051E9F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "LT Carbonell";
+				TargetAttributes = {
+					D0986DDA1E6F95ED0051E9F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 25NK4A4VUP;
+						ProvisioningStyle = Automatic;
+					};
+					D0986DEE1E6F95ED0051E9F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 25NK4A4VUP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0986DDA1E6F95ED0051E9F9;
+					};
+					D0986DF91E6F95ED0051E9F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 25NK4A4VUP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0986DDA1E6F95ED0051E9F9;
+					};
+				};
+			};
+			buildConfigurationList = D0986DD61E6F95ED0051E9F9 /* Build configuration list for PBXProject "Eye Tracking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0986DD21E6F95ED0051E9F9;
+			productRefGroup = D0986DDC1E6F95ED0051E9F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0986DDA1E6F95ED0051E9F9 /* Eye Tracking */,
+				D0986DEE1E6F95ED0051E9F9 /* Eye TrackingTests */,
+				D0986DF91E6F95ED0051E9F9 /* Eye TrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0986DD91E6F95ED0051E9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0986DE91E6F95ED0051E9F9 /* LaunchScreen.storyboard in Resources */,
+				D0986DE61E6F95ED0051E9F9 /* Assets.xcassets in Resources */,
+				D0986DE41E6F95ED0051E9F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0986DED1E6F95ED0051E9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0986DF81E6F95ED0051E9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0986DD71E6F95ED0051E9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0986DE11E6F95ED0051E9F9 /* ViewController.swift in Sources */,
+				D0986DDF1E6F95ED0051E9F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0986DEB1E6F95ED0051E9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0986DF41E6F95ED0051E9F9 /* Eye_TrackingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0986DF61E6F95ED0051E9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0986DFF1E6F95ED0051E9F9 /* Eye_TrackingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0986DF11E6F95ED0051E9F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0986DDA1E6F95ED0051E9F9 /* Eye Tracking */;
+			targetProxy = D0986DF01E6F95ED0051E9F9 /* PBXContainerItemProxy */;
+		};
+		D0986DFC1E6F95ED0051E9F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0986DDA1E6F95ED0051E9F9 /* Eye Tracking */;
+			targetProxy = D0986DFB1E6F95ED0051E9F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0986DE21E6F95ED0051E9F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0986DE31E6F95ED0051E9F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0986DE71E6F95ED0051E9F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0986DE81E6F95ED0051E9F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0986E011E6F95ED0051E9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0986E021E6F95ED0051E9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0986E041E6F95ED0051E9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25NK4A4VUP;
+				INFOPLIST_FILE = "Eye Tracking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ltcarbonell.Eye-Tracking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D0986E051E6F95ED0051E9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 25NK4A4VUP;
+				INFOPLIST_FILE = "Eye Tracking/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ltcarbonell.Eye-Tracking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D0986E071E6F95ED0051E9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 25NK4A4VUP;
+				INFOPLIST_FILE = "Eye TrackingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ltcarbonell.Eye-TrackingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eye Tracking.app/Eye Tracking";
+			};
+			name = Debug;
+		};
+		D0986E081E6F95ED0051E9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 25NK4A4VUP;
+				INFOPLIST_FILE = "Eye TrackingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ltcarbonell.Eye-TrackingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eye Tracking.app/Eye Tracking";
+			};
+			name = Release;
+		};
+		D0986E0A1E6F95ED0051E9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 25NK4A4VUP;
+				INFOPLIST_FILE = "Eye TrackingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ltcarbonell.Eye-TrackingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Eye Tracking";
+			};
+			name = Debug;
+		};
+		D0986E0B1E6F95ED0051E9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 25NK4A4VUP;
+				INFOPLIST_FILE = "Eye TrackingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ltcarbonell.Eye-TrackingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Eye Tracking";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0986DD61E6F95ED0051E9F9 /* Build configuration list for PBXProject "Eye Tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0986E011E6F95ED0051E9F9 /* Debug */,
+				D0986E021E6F95ED0051E9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0986E031E6F95ED0051E9F9 /* Build configuration list for PBXNativeTarget "Eye Tracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0986E041E6F95ED0051E9F9 /* Debug */,
+				D0986E051E6F95ED0051E9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0986E061E6F95ED0051E9F9 /* Build configuration list for PBXNativeTarget "Eye TrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0986E071E6F95ED0051E9F9 /* Debug */,
+				D0986E081E6F95ED0051E9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0986E091E6F95ED0051E9F9 /* Build configuration list for PBXNativeTarget "Eye TrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0986E0A1E6F95ED0051E9F9 /* Debug */,
+				D0986E0B1E6F95ED0051E9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0986DD31E6F95ED0051E9F9 /* Project object */;
+}
