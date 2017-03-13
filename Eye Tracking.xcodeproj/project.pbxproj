@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04551561E7628D800DD1B67 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04551551E7628D800DD1B67 /* AVFoundation.framework */; };
+		D04551581E7628DE00DD1B67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04551571E7628DE00DD1B67 /* CoreGraphics.framework */; };
+		D045515A1E7628E400DD1B67 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04551591E7628E400DD1B67 /* CoreMedia.framework */; };
+		D045515C1E7628EC00DD1B67 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D045515B1E7628EC00DD1B67 /* CoreVideo.framework */; };
+		D045515E1E7628F200DD1B67 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D045515D1E7628F200DD1B67 /* ImageIO.framework */; };
+		D04551601E7628F800DD1B67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D045515F1E7628F800DD1B67 /* QuartzCore.framework */; };
+		D04551621E76290000DD1B67 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04551611E76290000DD1B67 /* OpenGLES.framework */; };
+		D04551641E76291200DD1B67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04551631E76291200DD1B67 /* UIKit.framework */; };
+		D04551661E76291800DD1B67 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04551651E76291800DD1B67 /* MobileCoreServices.framework */; };
+		D07783471E7632C30076EE27 /* findEyeCentre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D077833D1E7632C30076EE27 /* findEyeCentre.cpp */; };
+		D07783481E7632C30076EE27 /* findEyeCorner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D077833F1E7632C30076EE27 /* findEyeCorner.cpp */; };
+		D07783491E7632C30076EE27 /* helpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D07783411E7632C30076EE27 /* helpers.cpp */; };
+		D077834A1E7632C30076EE27 /* PupilTracking.mm in Sources */ = {isa = PBXBuildFile; fileRef = D07783441E7632C30076EE27 /* PupilTracking.mm */; };
+		D077834B1E7632C30076EE27 /* VideoAcuityChecker.mm in Sources */ = {isa = PBXBuildFile; fileRef = D07783461E7632C30076EE27 /* VideoAcuityChecker.mm */; };
 		D0986DDF1E6F95ED0051E9F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0986DDE1E6F95ED0051E9F9 /* AppDelegate.swift */; };
 		D0986DE11E6F95ED0051E9F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0986DE01E6F95ED0051E9F9 /* ViewController.swift */; };
 		D0986DE41E6F95ED0051E9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0986DE21E6F95ED0051E9F9 /* Main.storyboard */; };
@@ -34,6 +48,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D04551551E7628D800DD1B67 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D04551571E7628DE00DD1B67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D04551591E7628E400DD1B67 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D045515B1E7628EC00DD1B67 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D045515D1E7628F200DD1B67 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		D045515F1E7628F800DD1B67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D04551611E76290000DD1B67 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D04551631E76291200DD1B67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D04551651E76291800DD1B67 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D077833B1E7632C20076EE27 /* Eye Tracking-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eye Tracking-Bridging-Header.h"; sourceTree = "<group>"; };
+		D077833C1E7632C30076EE27 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		D077833D1E7632C30076EE27 /* findEyeCentre.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = findEyeCentre.cpp; sourceTree = "<group>"; };
+		D077833E1E7632C30076EE27 /* findEyeCentre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findEyeCentre.h; sourceTree = "<group>"; };
+		D077833F1E7632C30076EE27 /* findEyeCorner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = findEyeCorner.cpp; sourceTree = "<group>"; };
+		D07783401E7632C30076EE27 /* findEyeCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findEyeCorner.h; sourceTree = "<group>"; };
+		D07783411E7632C30076EE27 /* helpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helpers.cpp; sourceTree = "<group>"; };
+		D07783421E7632C30076EE27 /* helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		D07783431E7632C30076EE27 /* PupilTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PupilTracking.h; sourceTree = "<group>"; };
+		D07783441E7632C30076EE27 /* PupilTracking.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PupilTracking.mm; sourceTree = "<group>"; };
+		D07783451E7632C30076EE27 /* VideoAcuityChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoAcuityChecker.h; sourceTree = "<group>"; };
+		D07783461E7632C30076EE27 /* VideoAcuityChecker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VideoAcuityChecker.mm; sourceTree = "<group>"; };
 		D0986DDB1E6F95ED0051E9F9 /* Eye Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eye Tracking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0986DDE1E6F95ED0051E9F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0986DE01E6F95ED0051E9F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +89,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04551661E76291800DD1B67 /* MobileCoreServices.framework in Frameworks */,
+				D04551641E76291200DD1B67 /* UIKit.framework in Frameworks */,
+				D04551621E76290000DD1B67 /* OpenGLES.framework in Frameworks */,
+				D04551601E7628F800DD1B67 /* QuartzCore.framework in Frameworks */,
+				D045515E1E7628F200DD1B67 /* ImageIO.framework in Frameworks */,
+				D045515C1E7628EC00DD1B67 /* CoreVideo.framework in Frameworks */,
+				D045515A1E7628E400DD1B67 /* CoreMedia.framework in Frameworks */,
+				D04551581E7628DE00DD1B67 /* CoreGraphics.framework in Frameworks */,
+				D04551561E7628D800DD1B67 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +118,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D04551541E7628D800DD1B67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D04551651E76291800DD1B67 /* MobileCoreServices.framework */,
+				D04551631E76291200DD1B67 /* UIKit.framework */,
+				D04551611E76290000DD1B67 /* OpenGLES.framework */,
+				D045515F1E7628F800DD1B67 /* QuartzCore.framework */,
+				D045515D1E7628F200DD1B67 /* ImageIO.framework */,
+				D045515B1E7628EC00DD1B67 /* CoreVideo.framework */,
+				D04551591E7628E400DD1B67 /* CoreMedia.framework */,
+				D04551571E7628DE00DD1B67 /* CoreGraphics.framework */,
+				D04551551E7628D800DD1B67 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D077833A1E7632A60076EE27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D077833C1E7632C30076EE27 /* constants.h */,
+				D077833D1E7632C30076EE27 /* findEyeCentre.cpp */,
+				D077833E1E7632C30076EE27 /* findEyeCentre.h */,
+				D077833F1E7632C30076EE27 /* findEyeCorner.cpp */,
+				D07783401E7632C30076EE27 /* findEyeCorner.h */,
+				D07783411E7632C30076EE27 /* helpers.cpp */,
+				D07783421E7632C30076EE27 /* helpers.h */,
+				D07783431E7632C30076EE27 /* PupilTracking.h */,
+				D07783441E7632C30076EE27 /* PupilTracking.mm */,
+				D07783451E7632C30076EE27 /* VideoAcuityChecker.h */,
+				D07783461E7632C30076EE27 /* VideoAcuityChecker.mm */,
+				D077833B1E7632C20076EE27 /* Eye Tracking-Bridging-Header.h */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		D0986DD21E6F95ED0051E9F9 = {
 			isa = PBXGroup;
 			children = (
+				D077833A1E7632A60076EE27 /* Resources */,
 				D0986DDD1E6F95ED0051E9F9 /* Eye Tracking */,
 				D0986DF21E6F95ED0051E9F9 /* Eye TrackingTests */,
 				D0986DFD1E6F95ED0051E9F9 /* Eye TrackingUITests */,
 				D0986DDC1E6F95ED0051E9F9 /* Products */,
+				D04551541E7628D800DD1B67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +275,7 @@
 					D0986DDA1E6F95ED0051E9F9 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 25NK4A4VUP;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					D0986DEE1E6F95ED0051E9F9 = {
@@ -262,8 +344,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D07783471E7632C30076EE27 /* findEyeCentre.cpp in Sources */,
+				D077834A1E7632C30076EE27 /* PupilTracking.mm in Sources */,
 				D0986DE11E6F95ED0051E9F9 /* ViewController.swift in Sources */,
 				D0986DDF1E6F95ED0051E9F9 /* AppDelegate.swift in Sources */,
+				D077834B1E7632C30076EE27 /* VideoAcuityChecker.mm in Sources */,
+				D07783491E7632C30076EE27 /* helpers.cpp in Sources */,
+				D07783481E7632C30076EE27 /* findEyeCorner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,12 +502,29 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 25NK4A4VUP;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					IOS,
+					VISAGE_STATIC,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = VISAGE_STATIC;
+				HEADER_SEARCH_PATHS = (
+					"/Users/ltcarbonell/Desktop/visageSDK-iOS/dependencies/OpenCV-iOS/include/opencv",
+					"/Users/ltcarbonell/Desktop/visageSDK-iOS/dependencies/OpenCV-iOS/include",
+					"/Users/ltcarbonell/Desktop/visageSDK-iOS/include/libIOS",
+					"/Users/ltcarbonell/Desktop/visageSDK-iOS/include",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "Eye Tracking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ltcarbonell.Eye-Tracking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Eye Tracking-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				WARNING_CFLAGS = "-Wno-comment";
 			};
 			name = Debug;
 		};
@@ -428,12 +532,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 25NK4A4VUP;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					IOS,
+					VISAGE_STATIC,
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/ltcarbonell/Desktop/visageSDK-iOS/dependencies/OpenCV-iOS/include/opencv",
+					"/Users/ltcarbonell/Desktop/visageSDK-iOS/dependencies/OpenCV-iOS/include",
+					"/Users/ltcarbonell/Desktop/visageSDK-iOS/include/libIOS",
+					"/Users/ltcarbonell/Desktop/visageSDK-iOS/include",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "Eye Tracking/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ltcarbonell.Eye-Tracking";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Eye Tracking-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				WARNING_CFLAGS = "-Wno-comment";
 			};
 			name = Release;
 		};
@@ -514,6 +633,7 @@
 				D0986E051E6F95ED0051E9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0986E061E6F95ED0051E9F9 /* Build configuration list for PBXNativeTarget "Eye TrackingTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +642,7 @@
 				D0986E081E6F95ED0051E9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0986E091E6F95ED0051E9F9 /* Build configuration list for PBXNativeTarget "Eye TrackingUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +651,7 @@
 				D0986E0B1E6F95ED0051E9F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
