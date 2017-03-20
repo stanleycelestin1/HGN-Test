@@ -286,7 +286,7 @@
 					};
 					D0986DF91E6F95ED0051E9F9 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 25NK4A4VUP;
+						DevelopmentTeam = FUUZ37PRQA;
 						ProvisioningStyle = Automatic;
 						TestTargetID = D0986DDA1E6F95ED0051E9F9;
 					};
@@ -590,11 +590,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 25NK4A4VUP;
+				DEVELOPMENT_TEAM = FUUZ37PRQA;
 				INFOPLIST_FILE = "Eye TrackingUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ltcarbonell.Eye-TrackingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Eye Tracking";
 			};
@@ -604,11 +605,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 25NK4A4VUP;
+				DEVELOPMENT_TEAM = FUUZ37PRQA;
 				INFOPLIST_FILE = "Eye TrackingUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ltcarbonell.Eye-TrackingUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Eye Tracking";
 			};
